@@ -1,3 +1,19 @@
+function submitForm() {
+    var username = document.getElementById("username").value;
+    var feedback = document.getElementById("feedback");
+    if (username === "" ) {
+        feedback.textContent = "Please fill out field.";
+        feedback.style.color = "red";
+    } else {
+        feedback.textContent = "Thank you, " + username + "! Welcome to this page:" ;
+        feedback.style.color = "green";
+    }
+}
+function changeBackgroundColor() {
+    // Generate random colors
+    var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+    document.body.style.backgroundColor = randomColor;
+}
 window.addEventListener('scroll', function() {
     const contentSections = document.querySelectorAll('.content');
     contentSections.forEach(section => {
