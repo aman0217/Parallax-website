@@ -16,7 +16,7 @@ function changeBackgroundColor() {
 }
 function about() {
     //open about page
-    feedback.about = "read about the page" ;
+    feedback.about = "/.about" ;
 window.addEventListener('scroll', function() {
     const contentSections = document.querySelectorAll('.content');
     contentSections.forEach(section => {
