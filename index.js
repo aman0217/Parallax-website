@@ -6,7 +6,6 @@ function submitForm() {
         feedback.style.color = "red";
     } else {
         feedback.textContent = "Thank you, " + username + "! Welcome to this page:" ;
-        feedback.about = "click this page" ;
         feedback.style.color = "green";
     }
 }
@@ -15,6 +14,9 @@ function changeBackgroundColor() {
     var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
     document.body.style.backgroundColor = randomColor;
 }
+function about() {
+    //open about page
+    feedback.about = "read about the page" ;
 window.addEventListener('scroll', function() {
     const contentSections = document.querySelectorAll('.content');
     contentSections.forEach(section => {
