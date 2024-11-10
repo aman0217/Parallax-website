@@ -6,6 +6,7 @@ function submitForm() {
         feedback.style.color = "red";
     } else {
         feedback.textContent = "Thank you, " + username + "! Welcome to this page:" ;
+        feedback.about = "click this page" ;
         feedback.style.color = "green";
     }
 }
