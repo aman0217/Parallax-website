@@ -11,7 +11,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url('/image6.png.jpg');
+    background-image: url('image6.png.jpg');
 
     /* Full height */
     height: 700px; /* Adjust as needed */
