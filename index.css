@@ -13,6 +13,9 @@ body {
     text-align: center;
     padding: 20px 0;
 }
+header1 {
+    background-color: sky-blue;
+    text-align: right;
 
 main {
     padding: 20px;
