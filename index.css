@@ -290,5 +290,122 @@ p {
     background: #1684a3;
     width: 0%;
     z-index: 1000;
+}}.photo-block {
+    position: sticky;
+    top: calc(50% - 30vh);
+    height: 60vh;
+      width: 100%;
+      display: grid;
+    overflow: hidden;
+    background: var(--gray-6);
+  }
+  
+  .photo-grid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 
+    display: grid;
+      grid-template-columns: re
+  }
+
+.photo {
+    aspect-ratio: 3 / 4;
+    width: 20vmax;
+  }
+.collage {
+    height: 200vh;
+    view-timeline: --collage;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .photo:nth-of-type(7n + 1):nt
+  .photo:nth-of-type(7n + 3):nt
+  .photo:nth-of-type(7n + 5):nt
+  .photo:nth-of-type(7n + 7):nt
+    --vertical: -100%;
+    --horizontal: 100%;
+  }
+  .photo:nth-of-type(7n + 1):nt
+  .photo:nth-of-type(7n + 3):nt
+  .photo:nth-of-type(7n + 5):nt
+  .photo:nth-of-type(7n + 7):nt
+    --vertical: -100%;
+    --horizontal: -100%;
+  }
+  
+  .photo:nth-of-type(7n + 2):nt
+  .photo:nth-of-type(7n + 4):nt
+  .photo:nth-of-type(7n + 6):nt
+    --vertical: 100%;
+    --horizontal: -100%;
+  }
+  
+  .photo:nth-of-type(7n + 2):nt
+  .photo:nth-of-type(7n + 4):nt
+  .photo:nth-of-type(7n + 6):nt
+    --vertical: 100%;
+    --horizontal: 100%;
+  }
+  
+  .photo {
+    animation-name: travel;
+    animation-fill-mode: both;
+    animation-timing-function: 
+    animation-timeline: --colla
+    animation-range: entry 100%
+  }
+  
+  @keyframes travel {
+    0% {
+      translate: 0 0;
+    }
+    50% {
+      translate: 0 var(--vertic
+    }
+    100% {
+      translate: var(--horizont
+    }
+  }header {
+    background-color: #563a3a;
+    color: white;
+    padding: 10px 0;
+    text-align: right;
 }
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(204, 20, 207);
+  font-size: 22px;
+}
+header nav ul li a:hover {
+color: #313f5b;
+}
+button {
+background-color: #ccd8f2;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
