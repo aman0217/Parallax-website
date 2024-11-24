@@ -5,7 +5,7 @@ function submitForm() {
         feedback.textContent = "Please fill out field.";
         feedback.style.color = "red";
     } else {
-        feedback.textContent = "Thank you, " + username + "! Welcome to this page:" ;
+        feedback.textContent = "Thank you, " + username + "! Welcome to this page:" + about.html ;
         feedback.style.color = "green";
     }
 }
