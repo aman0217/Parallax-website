@@ -326,3 +326,32 @@ p {
       translate: var(--horizontal) var(--vertical);
     }
   }
+  header {
+    background-color: #563a3a;
+    color: white;
+    padding: 10px 0;
+    text-align: right;
+}
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(204, 20, 207);
+  font-size: 22px;
+}
+header nav ul li a:hover {
+color: #313f5b;
+}
+button {
+background-color: #ccd8f2;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+}
