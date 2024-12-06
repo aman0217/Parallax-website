@@ -7,12 +7,34 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 17px;
-}header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
 }
+header {
+    background-color: #76889c;
+    color: rgb(250, 242, 242);
+    padding: 10px 0;
+    text-align: center;
+}
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(204, 20, 207);
+  font-size: 22px;
+}
+button {
+background-color: #ccd8f2;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+}
+
 main {
     padding: 20px;
     max-width: 800px;
@@ -32,380 +54,9 @@ form label {
 form input {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #18ef39;
+    border-radius: 15px;
 }
-
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-}
-.parallax {
-    /* The image used */
-    background-image: url('image6.png.jpg');
-
-    /* Full height */
-    height: 700px; /* Adjust as needed */
-
-    /* Create the parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-    /* Optional styling */
-    position: relative;
-}
-.content {
-    height: 300px; /* Adjust as needed */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(240, 208, 165, 0.904); /* White background with transparency */
-    padding: 20px;
-    text-align: center;
-    
-}
-.parallax2 {
-    /* The image used */
-    background-image: url('image2.png.jpg');
-
-    /* Full height */
-    height: 500px; /* Adjust as needed */
-
-    /* Create the parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* Optional styling */
-    position: relative;
-}
-.content2 {
-    height: 500px; /* Adjust as needed */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(154, 150, 150, 0.8); /* White background with transparency */
-    padding: 20px;
-    text-align: center;
-}
-.parallax3 {
-    /* The image used */
-    background-image: url('image1.png.png');
-
-    /* Full height */
-    height: 500px; /* Adjust as needed */
-
-    /* Create the parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-    /* Optional styling */
-    position: relative;
-}
-.content3 {
-    height: 350px; /* Adjust as needed */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(208, 229, 144, 0.95); /* White background with transparency */
-    padding: 20px;
-    text-align: relative;
-    
-}
-.parallax4 {
-    /* The image used */
-    background-image: url('image4.png.jpg');
-
-    /* Full height */
-    height: 500px; /* Adjust as needed *
-
-    /* Create the parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-    /* Optional styling */
-    position: relative;
-}
-.content4 {
-    height: 350px; /* Adjust as needed */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.8); /* White background with transparency */
-    padding: 20px;
-    text-align: relative;
-    
-}.parallax5 {
-    /* The image used */
-    background-image: url('image5.png.jpg');
-
-    /* Full height */
-    height: 500px; /* Adjust as needed *
-
-    /* Create the parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* Optional styling */
-    position: relative;
-}.content5 {
-    height: 350px; /* Adjust as needed */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(243, 139, 139, 0.906); /* White background with transparency */
-    padding: 20px;
-    text-align: relative;
-}.parallax6 {
-    /* The image used */
-    background-image: url('image7.png.jpg');
-    /* Full height */
-    height: 500px; /* Adjust as needed *
-    /* Create the parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* Optional styling */
-    position: relative;
-}.content6 {
-        height: 350px; /* Adjust as needed */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background:rgba(29, 171, 237, 0.8) ; /* White background with transparency */
-        padding: 20px;
-        text-align: relative;
-        
-}.parallax7 {
-    /* The image used */
-    background-image: url('image8.png.jpg');
-    /* Full height */
-    height: 500px; /* Adjust as needed *
-    /* Create the parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* Optional styling */
-    position: relative;
-}.content7 {
-    height: 200px; /* Adjust as needed */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background:rgba(236, 176, 176, 0.8) ; /* White background with transparency */
-    padding: 20px;
-    text-align: relative;
-}.parallax8 {
-    /* The image used */
-    background-image: url('image9.jpg');
-    /* Full height */
-    height: 500px; /* Adjust as needed *
-    /* Create the parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* Optional styling */
-    position: relative;
-}.content8 {
-    height: 200px; /* Adjust as needed */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background:rgba(243, 207, 32, 0.8) ; /* White background with transparency */
-    padding: 20px;
-    text-align: relative;
-}.parallax9 {
-    /* The image used */
-    background-image: url('image9.jpg');
-    /* Full height */
-    height: 500px; /* Adjust as needed *
-    /* Create the parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* Optional styling */
-    position: relative;
-}.content9 {
-    height: 150px; /* Adjust as needed */
-    display: flex;
-    
-    flex-direction: column;
-    align-items: center;
-    justify-content: top;
-    background:hwb(0 52% 8% / 0.8) ; /* White background with transparency */
-    padding: 20px;
-    text-align: relative;
-    font-size: 38px;
-    font-family: 'frankline Gothic Medium','Arial Narrow'Arial,'Sans-serif';
-}
-h1, h2, h3, h4,h5, h6, h7, h8{
-    margin: 20px 0;
-}
-
-p {
-    max-width: 800px;
-    line-height: 1.6;
-}
-#progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 5px;
-    background: #1684a3;
-    width: 0%;
-    z-index: 1000;
-}}.photo-block {
-    position: sticky;
-    top: calc(50% - 30vh);
-    height: 60vh;
-      width: 100%;
-      display: grid;
-    overflow: hidden;
-    background: var(--gray-6);
-  }
-  
-  .photo-grid {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 
-    display: grid;
-      grid-template-columns: re
-  }
-
-.photo {
-    aspect-ratio: 3 / 4;
-    width: 20vmax;
-  }
-.collage {
-    height: 200vh;
-    view-timeline: --collage;
-  }
-  
-  .photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .photo:nth-of-type(7n + 1):nt
-  .photo:nth-of-type(7n + 3):nt
-  .photo:nth-of-type(7n + 5):nt
-  .photo:nth-of-type(7n + 7):nt
-    --vertical: -100%;
-    --horizontal: 100%;
-  }
-  .photo:nth-of-type(7n + 1):nt
-  .photo:nth-of-type(7n + 3):nt
-  .photo:nth-of-type(7n + 5):nt
-  .photo:nth-of-type(7n + 7):nt
-    --vertical: -100%;
-    --horizontal: -100%;
-  }
-  
-  .photo:nth-of-type(7n + 2):nt
-  .photo:nth-of-type(7n + 4):nt
-  .photo:nth-of-type(7n + 6):nt
-    --vertical: 100%;
-    --horizontal: -100%;
-  }
-  
-  .photo:nth-of-type(7n + 2):nt
-  .photo:nth-of-type(7n + 4):nt
-  .photo:nth-of-type(7n + 6):nt
-    --vertical: 100%;
-    --horizontal: 100%;
-  }
-  
-  .photo {
-    animation-name: travel;
-    animation-fill-mode: both;
-    animation-timing-function: 
-    animation-timeline: --colla
-    animation-range: entry 100%
-  }
-  
-  @keyframes travel {
-    0% {
-      translate: 0 0;
-    }
-    50% {
-      translate: 0 var(--vertic
-    }
-    100% {
-      translate: var(--horizont
-    }
-  }header {
-    background-color: #563a3a;
-    color: white;
-    padding: 10px 0;
-    text-align: right;
-}
-header nav ul {
-  list-style-type: none;
-}
-
-header nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  color: rgb(204, 20, 207);
-  font-size: 22px;
-}
-header nav ul li a:hover {
-color: #313f5b;
-}
-button {
-background-color: #ccd8f2;
-padding: 10px 15px;
-border-radius: 5px;
-cursor: pointer;
-}
-
-
-
-
-
-
-
 
 
