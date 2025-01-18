@@ -5,28 +5,60 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    font-size: 17px;
+    font-family: 'poppins', sans-serif;
+    font-size: 19px;
 }
+
 header {
-    background-color: #76889c;
+    background-color: #060606b5;
     color: rgb(250, 242, 242);
-    padding: 10px 0;
+    padding: 05px 0;
     text-align: center;
+
+}
+header nav label{
+    color: hwb(223 16% 11% / 0.953);
+}
+.slide h1{
+color: aqua;
+display:block;
 }
 header nav ul {
   list-style-type: none;
+  background-color: rgb(33, 27, 27);
 }
 
 header nav ul li {
-  display: inline;
+  display: inline-block;
   margin: 0 15px;
+}
+header nav ul li :hover {
+background-color:rgba(220, 124, 14, 0.614);
+color: white;
 }
 
 header nav ul li a {
   text-decoration: none;
-  color: rgb(204, 20, 207);
+  color: rgb(20, 207, 207);
   font-size: 22px;
+}
+.dropdown{
+    display: none;
+}
+
+header nav ul li :hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -0.29cm;
+    margin-top: auto;
+    font-size: 09px;
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li{
+    display: block;
 }
 button {
 background-color: #ccd8f2;
@@ -34,7 +66,10 @@ padding: 10px 15px;
 border-radius: 5px;
 cursor: pointer;
 }
-
+button:hover{
+    background-color: rgb(123, 131, 139);
+    color: white;
+}
 main {
     padding: 20px;
     max-width: 800px;
@@ -58,5 +93,31 @@ form input {
     border: 1px solid #18ef39;
     border-radius: 15px;
 }
+header ul {
+    list-style: none;
+    background-color: rgb(48, 77, 108);
+    color: aqua;
+    padding: 10px 0;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
 
 
