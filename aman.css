@@ -92,3 +92,30 @@ section{
     }
   }
 }
+header {
+  
+    color: white;
+    padding: 07px 0;
+    text-align: right;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 05px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  
+  font-size: 12px;
+}
+header nav ul li a:hover {
+  background-color: antiquewhite;
+color: #313f5b;
+}
+button {
+  background-color: white;
+padding: 05px 07px;
+border-radius: 3px;
+cursor: pointer;
+}
