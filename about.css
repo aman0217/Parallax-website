@@ -38,7 +38,7 @@ body {
 }
 .parallax2 {
     /* The image used */
-    background-image: url('image/image2.png.jpg');
+    background-image: url('image2.png.jpg');
 
     /* Full height */
     height: 500px; /* Adjust as needed */
@@ -64,7 +64,7 @@ body {
 }
 .parallax3 {
     /* The image used */
-    background-image: url('image/image1.png.png');
+    background-image: url('image1.png.png');
 
     /* Full height */
     height: 500px; /* Adjust as needed */
@@ -91,7 +91,7 @@ body {
 }
 .parallax4 {
     /* The image used */
-    background-image: url('image/image4.png.jpg');
+    background-image: url('image4.png.jpg');
 
     /* Full height */
     height: 500px; /* Adjust as needed *
@@ -117,7 +117,7 @@ body {
     
 }.parallax5 {
     /* The image used */
-    background-image: url('image/image5.png.jpg');
+    background-image: url('image5.png.jpg');
 
     /* Full height */
     height: 500px; /* Adjust as needed *
@@ -140,7 +140,7 @@ body {
     text-align: relative;
 }.parallax6 {
     /* The image used */
-    background-image: url('image/image7.png.jpg');
+    background-image: url('image7.png.jpg');
     /* Full height */
     height: 500px; /* Adjust as needed *
     /* Create the parallax effect */
@@ -162,7 +162,7 @@ body {
         
 }.parallax7 {
     /* The image used */
-    background-image: url('image/image27.jpg');
+    background-image: url('image27.jpg');
     /* Full height */
     height: 500px; /* Adjust as needed *
     /* Create the parallax effect */
@@ -183,7 +183,7 @@ body {
     text-align: relative;
 }.parallax8 {
     /* The image used */
-    background-image: url('image/image26.jpg');
+    background-image: url('image26.jpg');
     /* Full height */
     height: 500px; /* Adjust as needed *
     /* Create the parallax effect */
@@ -204,7 +204,7 @@ body {
     text-align: relative;
 }.parallax9 {
     /* The image used */
-    background-image: url('image/image28.jpg');
+    background-image: url('image28.jpg');
     /* Full height */
     height: 500px; /* Adjust as needed *
     /* Create the parallax effect */
